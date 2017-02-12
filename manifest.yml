@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Coursera_IoT_Developer_Test
+  host: Coursera-IBM-IOT-NYC
+  disk_quota: 1024M
+  services:
+  - Coursera_IoT_Developer_Test-cloudantNoSQLDB
+  - Coursera_IoT_Developer_Test-iotf-service
